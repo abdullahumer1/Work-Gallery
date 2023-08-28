@@ -1,0 +1,19 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:serif;}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250, 1fr));
+    grid-gap: 20px;
+}
+h1{
+    text-align: center;
+    background-color: bisque;
+}
